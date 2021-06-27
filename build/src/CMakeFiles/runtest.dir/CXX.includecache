@@ -32,13 +32,13 @@ stack
 Box.h
 ../include/Astar/Box.h
 
-/home/wuhongxi/TEST/second_work_1/test/runtest.cpp
+/home/wuhongxi/TEST/testMaze/test/test/runtest.cpp
 Astar.h
-/home/wuhongxi/TEST/second_work_1/test/Astar.h
+/home/wuhongxi/TEST/testMaze/test/test/Astar.h
 Map.h
-/home/wuhongxi/TEST/second_work_1/test/Map.h
+/home/wuhongxi/TEST/testMaze/test/test/Map.h
 Box.h
-/home/wuhongxi/TEST/second_work_1/test/Box.h
+/home/wuhongxi/TEST/testMaze/test/test/Box.h
 gtest/gtest.h
 -
 

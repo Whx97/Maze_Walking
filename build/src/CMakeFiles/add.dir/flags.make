@@ -6,5 +6,5 @@ CXX_FLAGS =  -O0 -Wall -g2 -ggdb   -std=gnu++17
 
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/wuhongxi/TEST/second_work_1/include/Astar 
+CXX_INCLUDES = -I/home/wuhongxi/TEST/testMaze/test/include/Astar 
 

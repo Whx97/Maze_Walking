@@ -1,4 +1,4 @@
-# Install script for directory: /home/wuhongxi/TEST/second_work_1/src
+# Install script for directory: /home/wuhongxi/TEST/testMaze/test/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

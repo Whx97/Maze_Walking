@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/wuhongxi/TEST/second_work_1
+CMAKE_SOURCE_DIR = /home/wuhongxi/TEST/testMaze/test
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/wuhongxi/TEST/second_work_1/build
+CMAKE_BINARY_DIR = /home/wuhongxi/TEST/testMaze/test/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,14 +80,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/wuhongxi/TEST/second_work_1/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wuhongxi/TEST/second_work_1/build/CMakeFiles /home/wuhongxi/TEST/second_work_1/build/src/CMakeFiles/progress.marks
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/wuhongxi/TEST/second_work_1/build/CMakeFiles 0
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/wuhongxi/TEST/testMaze/test/build/CMakeFiles /home/wuhongxi/TEST/testMaze/test/build/src/CMakeFiles/progress.marks
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/wuhongxi/TEST/testMaze/test/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/clean
 .PHONY : clean
 
 # The main clean target
@@ -97,22 +97,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 src/CMakeFiles/runtest.dir/rule:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/runtest.dir/rule
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/runtest.dir/rule
 .PHONY : src/CMakeFiles/runtest.dir/rule
 
 # Convenience name for target.
@@ -122,12 +122,12 @@ runtest: src/CMakeFiles/runtest.dir/rule
 
 # fast build rule for target.
 runtest/fast:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/build
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/build
 .PHONY : runtest/fast
 
 # Convenience name for target.
 src/CMakeFiles/add.dir/rule:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/add.dir/rule
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f CMakeFiles/Makefile2 src/CMakeFiles/add.dir/rule
 .PHONY : src/CMakeFiles/add.dir/rule
 
 # Convenience name for target.
@@ -137,7 +137,7 @@ add: src/CMakeFiles/add.dir/rule
 
 # fast build rule for target.
 add/fast:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/build
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/build
 .PHONY : add/fast
 
 Astar.o: Astar.cpp.o
@@ -146,7 +146,7 @@ Astar.o: Astar.cpp.o
 
 # target to build an object file
 Astar.cpp.o:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.o
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.o
 .PHONY : Astar.cpp.o
 
 Astar.i: Astar.cpp.i
@@ -155,7 +155,7 @@ Astar.i: Astar.cpp.i
 
 # target to preprocess a source file
 Astar.cpp.i:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.i
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.i
 .PHONY : Astar.cpp.i
 
 Astar.s: Astar.cpp.s
@@ -164,7 +164,7 @@ Astar.s: Astar.cpp.s
 
 # target to generate assembly for a file
 Astar.cpp.s:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.s
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Astar.cpp.s
 .PHONY : Astar.cpp.s
 
 Map.o: Map.cpp.o
@@ -173,7 +173,7 @@ Map.o: Map.cpp.o
 
 # target to build an object file
 Map.cpp.o:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.o
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.o
 .PHONY : Map.cpp.o
 
 Map.i: Map.cpp.i
@@ -182,7 +182,7 @@ Map.i: Map.cpp.i
 
 # target to preprocess a source file
 Map.cpp.i:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.i
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.i
 .PHONY : Map.cpp.i
 
 Map.s: Map.cpp.s
@@ -191,7 +191,7 @@ Map.s: Map.cpp.s
 
 # target to generate assembly for a file
 Map.cpp.s:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.s
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/add.dir/build.make src/CMakeFiles/add.dir/Map.cpp.s
 .PHONY : Map.cpp.s
 
 __/test/runtest.o: __/test/runtest.cpp.o
@@ -200,7 +200,7 @@ __/test/runtest.o: __/test/runtest.cpp.o
 
 # target to build an object file
 __/test/runtest.cpp.o:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.o
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.o
 .PHONY : __/test/runtest.cpp.o
 
 __/test/runtest.i: __/test/runtest.cpp.i
@@ -209,7 +209,7 @@ __/test/runtest.i: __/test/runtest.cpp.i
 
 # target to preprocess a source file
 __/test/runtest.cpp.i:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.i
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.i
 .PHONY : __/test/runtest.cpp.i
 
 __/test/runtest.s: __/test/runtest.cpp.s
@@ -218,7 +218,7 @@ __/test/runtest.s: __/test/runtest.cpp.s
 
 # target to generate assembly for a file
 __/test/runtest.cpp.s:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.s
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(MAKE) -f src/CMakeFiles/runtest.dir/build.make src/CMakeFiles/runtest.dir/__/test/runtest.cpp.s
 .PHONY : __/test/runtest.cpp.s
 
 # Help Target
@@ -251,6 +251,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/wuhongxi/TEST/second_work_1/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/wuhongxi/TEST/testMaze/test/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
