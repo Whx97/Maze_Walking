@@ -1,0 +1,44 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/Astar/Astar.h
+Map.h
+../include/Astar/Map.h
+Box.h
+../include/Astar/Box.h
+iostream
+-
+vector
+-
+stack
+-
+list
+-
+
+../include/Astar/Box.h
+
+../include/Astar/Map.h
+iostream
+-
+vector
+-
+stack
+-
+Box.h
+../include/Astar/Box.h
+
+/home/wuhongxi/TEST/second_work_1/test/runtest.cpp
+Astar.h
+/home/wuhongxi/TEST/second_work_1/test/Astar.h
+Map.h
+/home/wuhongxi/TEST/second_work_1/test/Map.h
+Box.h
+/home/wuhongxi/TEST/second_work_1/test/Box.h
+gtest/gtest.h
+-
+

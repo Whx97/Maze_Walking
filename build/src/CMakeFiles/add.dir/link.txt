@@ -1,0 +1,2 @@
+/usr/bin/ar qc libadd.a  CMakeFiles/add.dir/Astar.cpp.o CMakeFiles/add.dir/Map.cpp.o
+/usr/bin/ranlib libadd.a
